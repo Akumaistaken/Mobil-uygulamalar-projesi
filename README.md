@@ -1,17 +1,45 @@
-# firebase_auth_odev
+# 🔐 Abdulkadir Auth Proje
 
-A new Flutter project.
+Flutter ve Firebase Authentication altyapısı kullanılarak geliştirilmiş, modern ve güvenli kullanıcı kimlik doğrulama uygulaması.
 
-## Getting Started
+## 🚀 Özellikler
 
-This project is a starting point for a Flutter application.
+* **Kayıt Ol (Sign Up):** E-posta ve şifre ile hızlı ve doğrulanmış kullanıcı kaydı.
+* **Giriş Yap (Sign In):** Firebase Authentication üzerinden güvenli oturum açma.
+* **Oturum Yönetimi:** Kullanıcının giriş durumunu anlık takip ederek ilgili ekrana otomatik yönlendirme ve güvenli çıkış yapma.
+* **Hata & Form Kontrolleri:** Geçersiz e-posta formatı, eksik alanlar veya hatalı şifre gibi durumlar için anlaşılır kullanıcı geri bildirimleri.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Kullanılan Teknolojiler
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+* **Framework:** Flutter
+* **Programlama Dili:** Dart
+* **Kimlik Doğrulama (Auth):** Firebase Authentication & Firebase Core
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📂 Proje Yapısı
+
+* `lib/main.dart` — Uygulama başlangıcı, yönlendirme ve arayüz ekranları
+* `lib/firebase_options.dart` — Firebase yapılandırma ayarları (yerel)
+
+## ⚙️ Kurulum ve Çalıştırma
+
+Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin:
+
+1. **Depoyu klonlayın:**
+   ```bash
+   git clone [https://github.com/Akumaistaken/abdulkadir_Bicak_251109019_A.git](https://github.com/Akumaistaken/abdulkadir_Bicak_251109019_A.git)
+   ```
+
+2. **Proje klasörüne girin ve paketleri yükleyin:**
+   ```bash
+   cd abdulkadir_Bicak_251109019_A
+   flutter pub get
+   ```
+
+3. **Firebase Yapılandırması:**
+   Güvenlik nedeniyle Firebase yapılandırma dosyaları repoya dahil edilmemiştir.
+   Kendi Firebase projenizi oluşturup `flutterfire configure` komutuyla yapılandırma dosyalarınızı ekleyin.
+
+4. **Uygulamayı başlatın:**
+   ```bash
+   flutter run
+   ```
