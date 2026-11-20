@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "574586175496",
+    "project_id": "abdulkadirproje2026mobil",
+    "storage_bucket": "abdulkadirproje2026mobil.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574586175496:android:abf2d9db75869f6b6a51bd",
+        "android_client_info": {
+          "package_name": "com.odev.firebase_auth_odev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBq9vOzslyrS2mi2la9Xw1gjWd8PybmG-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
